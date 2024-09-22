@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+  }
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  :root {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    cursor: default;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    -moz-tab-size: 4;
+    tab-size: 4;
+  }
+  html,
+  body {
+    font-family: 'SpoqaHanSansNeo', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+  button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  .visually--hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+  }
+  
+  html {
+    font-size: 10px;
+  }
